@@ -1,36 +1,37 @@
 {
-	"name": "loopback-boot-create-access-token",
-	"version": "0.2.1",
-	"description": "Module for generating an access token with an administrator account with all access.",
-	"main": "./lib/index.js",
-	"engines": {
-		"node": ">=4"
-	},
-	"scripts": {
-		"test": "mocha --reporter spec"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/RedekProject/loopback-boot-create-access-token.git"
-	},
-	"keywords": [
-		"loopback",
-		"loopback-boot",
-		"accesstoken",
-		"create",
-		"generate"
-	],
-	"author": "DESPLATS Philippe <contact@redekproject.fr> (https://www.redekproject.fr)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/RedekProject/loopback-boot-create-access-token/issues"
-	},
-	"homepage": "https://github.com/RedekProject/loopback-boot-create-access-token#readme",
-	"devDependencies": {
-		"chai": "^4.1.2",
-		"mocha": "^4.0.1"
-	},
-	"dependencies": {
-		"loopback": "^3.0.0"
-	}
+  "name": "loopback-boot-create-access-token",
+  "version": "0.2.1",
+  "description": "Module for generating an access token with an administrator account with all access.",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedekProject/loopback-boot-create-access-token.git"
+  },
+  "keywords": [
+    "loopback",
+    "loopback-boot",
+    "accesstoken",
+    "create",
+    "generate"
+  ],
+  "author": "DESPLATS Philippe <contact@redekproject.fr> (https://www.redekproject.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedekProject/loopback-boot-create-access-token/issues"
+  },
+  "homepage": "https://github.com/RedekProject/loopback-boot-create-access-token#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "colors": "^1.3.0",
+    "loopback": "^3.0.0"
+  }
 }
